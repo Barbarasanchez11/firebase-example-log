@@ -32,7 +32,7 @@
 ![10](./img/10.png)
 ![11](./img/11.png)
 
-### 9. De nuevo volvemos a la configuración de proyecto (en el engranage arriba a la izquierda) y dentro punlamos en el menú `cuentas de servicio` y generamos unas claves privadas. Se descargarán una vez pulsado el botón
+### 9. De nuevo volvemos a la configuración de proyecto (en el engranaje arriba a la izquierda) y dentro punlamos en el menú `cuentas de servicio` y generamos unas claves privadas. Se descargarán una vez pulsado el botón
 ![12](./img/12.png)
 
 
