@@ -3,6 +3,7 @@
 - Comenzaremos creando una cuenta en firebase con nuestra cuenta de gmail en https://firebase.google.com/
 - Una vez creada y estando logados iremos a la consola de administración. (en la esquina superior derecha debería estar el botón para entrar) 
 - Ahí seguiremos los siguientes pasos:
+
 ### 1. Daremos un nombre a nuestro proyecto
 ![1](./img/1.png)
 ![2](./img/2.png)
