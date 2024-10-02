@@ -4,13 +4,14 @@ import { getAuth, signInWithEmailAndPassword } from 'https://www.gstatic.com/fir
 
 // Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyCwv15q532hRVur2MqHOFUoByzBOez_0kQ",
-  authDomain: "login-firebase-e39bb.firebaseapp.com",
-  projectId: "login-firebase-e39bb",
-  storageBucket: "login-firebase-e39bb.appspot.com",
-  messagingSenderId: "74831738471",
-  appId: "1:74831738471:web:97995849620f53a742c6c2"
+  apiKey: "AIzaSyCb9Yy_cA9f6lvEg7LpfsIbjfxZ7xUTLhI",
+  authDomain: "fir-72ea9.firebaseapp.com",
+  projectId: "fir-72ea9",
+  storageBucket: "fir-72ea9.appspot.com",
+  messagingSenderId: "255482316848",
+  appId: "1:255482316848:web:ef918caa48fb7f9829c5f5"
 };
+
 
 // Inicializa Firebase
 const app = initializeApp(firebaseConfig);
@@ -61,4 +62,5 @@ const login = async () => {
 };
 
 // Event listener para el botón de inicio de sesión
-document.getElementById('loginButton').addEventListener('click', login);
+const loginButton = document.getElementById('loginButton')
+loginButton.addEventListener('click',login)

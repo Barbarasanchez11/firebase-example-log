@@ -5,12 +5,14 @@ const admin = require('firebase-admin');
 const checkAuth = require('../middlewares/checkAuth')
 const auth = admin.auth();
 
+
 router.get('/', (req, res) => {
   res.redirect('/login');
 });
 
 router.get('/register', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/views', 'register.html'));
+//sendFile:  se utiliza para enviar un archivo al cliente como respuesta a una solicitud HTTP
 });
 
 router.get('/login', (req, res) => {
@@ -44,8 +46,10 @@ router.get('/datos', checkAuth, (req, res) => {
 
 router.post('/register', async (req, res) => {
   const { email, password } = req.body;
+  
+  
   try {
-    await auth.createUser({
+    await auth.createUser({//createUser es un método que nos da firebase
       email,
       password
     });
